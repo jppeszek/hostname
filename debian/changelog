@@ -1,4 +1,4 @@
-hostname (3.23+1) UNRELEASED; urgency=low
+hostname (3.23+1) unstable; urgency=low
 
   * Added testing.sh
   * Added message during package install 
