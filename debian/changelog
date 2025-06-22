@@ -1,3 +1,10 @@
+hostname (3.23+1) UNRELEASED; urgency=low
+
+  * Added testing.sh
+  * Added message during package install 
+
+ -- Jacek Peszek <jppeszek@gmail.com>  Sun, 22 Jun 2025 11:33:03 +0200
+
 hostname (3.23) unstable; urgency=medium
 
   * Increase buffer size for all FQDNs to NI_MAXHOST as suggested by manpage.
