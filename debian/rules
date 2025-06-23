@@ -5,8 +5,8 @@
 
 include /usr/share/dpkg/pkg-info.mk
 PRGVERSION := $(shell awk '/define VERSION/ { print substr($$3,2,length($$3)-2)}' hostname.c)
-MYVERSION := $(shell echo '$(DEB_VERSION)' | sed -e 's/\+.*//')
-
+#MYVERSION := $(shell echo '$(DEB_VERSION)' | sed -e 's/\+.*//')
+MYVERSION=3.23
 export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 CFLAGS = `dpkg-buildflags --get CFLAGS`
 CFLAGS += -Wall
